@@ -1,0 +1,26 @@
+export const business = {
+  name: "Mike's Auto Repair",
+  shortName: "Mike's",
+  addressLine1: '934 N Wycoff Ave',
+  addressLine2: 'Bremerton, WA 98312',
+  addressFull: '934 N Wycoff Ave, Bremerton, WA 98312',
+  phone: '(360) 377-5032',
+  phoneHref: 'tel:+13603775032',
+  email: 'dillon750@yahoo.com',
+  emailHref: 'mailto:dillon750@yahoo.com',
+  rating: 4.9,
+  reviewCount: 80,
+  yelpRating: 4.9,
+  yelpReviewCount: 43,
+  mapsHref:
+    "https://www.google.com/maps/place/Mike's+Auto+Repair/@47.5704787,-122.6541075,17z",
+  hours: [
+    { day: 'Monday', time: '8:00 AM – 5:00 PM' },
+    { day: 'Tuesday', time: '8:00 AM – 5:00 PM' },
+    { day: 'Wednesday', time: '8:00 AM – 5:00 PM' },
+    { day: 'Thursday', time: '8:00 AM – 5:00 PM' },
+    { day: 'Friday', time: '8:00 AM – 5:00 PM' },
+    { day: 'Saturday', time: 'Closed' },
+    { day: 'Sunday', time: 'Closed' },
+  ],
+}
