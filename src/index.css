@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto max-w-6xl px-6;
+  }
+  .eyebrow {
+    @apply font-mono text-xs font-bold uppercase tracking-[0.2em] text-mustard-600;
+  }
+  .section-title {
+    @apply font-display text-3xl uppercase text-ink-900 sm:text-4xl;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-maroon-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-cream transition hover:bg-maroon-600;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border-2 border-ink-900 px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink-900 transition hover:bg-ink-900 hover:text-cream;
+  }
+  .btn-on-royal {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-mustard-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-ink-900 transition hover:bg-mustard-400;
+  }
+  .stat-card {
+    @apply rounded-sm border-2 border-ink-900 bg-cream p-6;
+  }
+  .area-chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-royal-300 bg-royal-50 px-4 py-1.5 text-sm font-medium text-royal-700;
+  }
+}
